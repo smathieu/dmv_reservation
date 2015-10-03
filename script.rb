@@ -10,8 +10,8 @@ def debug(object)
   ap object if false
 end
 
-while true 
-  target_date = Date.today + 1
+while true
+  target_date = Date.today + 7
 
   begin
     a = Mechanize.new { |agent|
@@ -59,9 +59,9 @@ while true
           puts "Apointment found!"
           exit 
         else
-          60.times do |i|
-            puts
-            $stdout.write "#{60 - i}, "
+          delay = 30
+          delay.times do |i|
+            $stdout.write "#{delay- i}, "
             sleep 1
           end
         end
