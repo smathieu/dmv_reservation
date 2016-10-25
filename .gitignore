@@ -1,2 +1,3 @@
 data.yml
-*.hml
+*.html
+.byebug_history

@@ -1,6 +1,10 @@
 source "https://rubygems.org"
 
-gem 'mechanize'
+gem 'capybara'
+gem 'poltergeist'
 gem 'awesome_print'
 gem 'chronic'
-gem 'pry'
+gem 'pry-byebug'
+gem 'selenium-webdriver'
+gem "chromedriver-helper"
+
